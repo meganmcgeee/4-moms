@@ -5,10 +5,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="./assets/style.css">
+<link rel="stylesheet" href="./assets/megamenu.css">
+
 <title>4 Moms</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-
+<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" integrity="sha512-UyNhw5RNpQaCai2EdC+Js0QL4RlVmiq41DkmCJsRV3ZxipG2L0HhTqIf/H9Hp8ez2EnFlkBnjRGJU2stW3Lj+w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 <body>
@@ -29,6 +31,45 @@
   
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+            <!-- MegaMenu -->
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  Shop
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4">
+                    <span class="text-uppercase text-white">Category 1</span>
+                    <ul class="nav flex-column">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link item</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link item</a>
+                    </li>
+                  </ul>
+                  </div>
+                  <!-- /.col-md-4  -->
+                  
+                  <!-- /.col-md-4  -->
+                  <div class="col-md-4">
+                    <a href="">
+                      <img src="https://dummyimage.com/200x100/ccc/000&text=image+link" alt="" class="img-fluid">
+                    </a>
+                    
+    
+                  </div>
+                  <!-- /.col-md-4  -->
+                </div>
+              </div>
+    
+            </div>
+          </li>
         <li class="nav-item active">
           <a class="nav-link" href="#">Shop <span class="sr-only">(current)</span></a>
         </li>
@@ -45,12 +86,16 @@
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Support
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
+           
+          </li>
+          <li class="nav-item">
+            <span class="oi oi-magnifying-glass"></span>
+          </li>
+          <li class="nav-item">
+            <span class="oi oi-person"></span>
+          </li>
+          <li class="nav-item">
+            <span class="oi oi-magnifying-glass"></span>
           </li>
       </ul>
     
@@ -279,5 +324,6 @@
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
+<script src="assets/index.js"></script>
 </body>
 </html>
