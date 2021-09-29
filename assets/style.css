@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'CenturyGothic';
+    src: url(./fonts/CenturyGothic.woff);
+  }
+
+  body{
+    font-family: 'CenturyGothic' !important;
+
+  }
