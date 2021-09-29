@@ -11,7 +11,10 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" integrity="sha512-UyNhw5RNpQaCai2EdC+Js0QL4RlVmiq41DkmCJsRV3ZxipG2L0HhTqIf/H9Hp8ez2EnFlkBnjRGJU2stW3Lj+w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 </head>
 <body>
 <div class="bootstrap-wrapper">
@@ -41,17 +44,37 @@
               <div class="container">
                 <div class="row">
                   <div class="col-md-4">
-                    <span class="text-uppercase text-white">Category 1</span>
+                    <span class="text-uppercase text-white"> Shop All </span>
+               
+
                     <ul class="nav flex-column">
                     <li class="nav-item">
-                      <a class="nav-link active" href="#">Active</a>
+                      <a class="nav-link active" href="#">Seats</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Link item</a>
+                      <a class="nav-link" href="#">Playards</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Link item</a>
+                      <a class="nav-link" href="#">Feeding</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Bassinets</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Feeding</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Bath</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Mobile</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Accessores</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Spare Parts</a>
+                      </li>
                   </ul>
                   </div>
                   <!-- /.col-md-4  -->
@@ -70,23 +93,18 @@
     
             </div>
           </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Shop <span class="sr-only">(current)</span></a>
-        </li>
+        
         <li class="nav-item">
           <a class="nav-link" href="#">About Moms</a>
         </li>
       </ul>
       <a class="navbar-brand mx-auto" style="width: 50px;"href="#">LOGO</a>
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item dropdown">
-            <li class="nav-item">
-                <a class="nav-link" href="#">United States</a>
-              </li>
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Support
-            </a>
-           
+        <li class="nav-item">
+            <a class="nav-link" href="#">United States</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Support</a>
           </li>
           <li class="nav-item">
             <span class="oi oi-magnifying-glass"></span>
@@ -95,7 +113,7 @@
             <span class="oi oi-person"></span>
           </li>
           <li class="nav-item">
-            <span class="oi oi-magnifying-glass"></span>
+            <span class="oi oi-cart"></span>
           </li>
       </ul>
     
@@ -321,9 +339,19 @@
     </div>
 </div>
 </div>
-<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="slick/slick.min.js"></script>
+
 <script src="assets/index.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<!-- Slick Initialize -->
+<script>
+   
+$('.testimonial-slider').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  adaptiveHeight: true
+});
+</script>
 </body>
 </html>

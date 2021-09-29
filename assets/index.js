@@ -1,5 +1,3 @@
-// Slick Slider Testimonial Slide
-// $('.testimonial-slider').slick();
 
 // Megamenu
 $(document).ready(function() {
