@@ -2,8 +2,70 @@
     font-family: 'CenturyGothic';
     src: url(./fonts/CenturyGothic.woff);
   }
-
-  body{
+body{
     font-family: 'CenturyGothic' !important;
-
+}
+  .announcement{
+    height: 40px;
+    background: #000000;
+    color:#fff;
   }
+
+  .jumbotron{
+      background:#E9E9E9;
+  }
+
+button{
+    background: #000000;
+    color:#ffffff;
+    width: 260px; 
+    border: black solid 1px;
+    border-radius: 10px !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+}
+
+.container{
+    max-width: 100% !important
+}
+
+.nav-link{
+    font-family: 'CenturyGothic';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+h5{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+    
+    text-align: center;
+    letter-spacing: 0.05em;
+    
+    color: #222222;
+}
+
+p{
+    font-family: 'CenturyGothic';
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 150%;
+/* or 22px */
+
+/* text-align: center; */
+letter-spacing: 0.05em;
+
+color: #636363;
+}
