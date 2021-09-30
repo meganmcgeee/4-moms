@@ -58,14 +58,41 @@ h5{
 
 p{
     font-family: 'CenturyGothic';
-font-style: normal;
-font-weight: normal;
-font-size: 15px;
-line-height: 150%;
-/* or 22px */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 150%;
+    /* or 22px */
 
-/* text-align: center; */
-letter-spacing: 0.05em;
+    /* text-align: center; */
+    letter-spacing: 0.05em;
 
-color: #636363;
+    color: #636363;
 }
+
+.display-4{
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 44px !important;
+    line-height: 140%;
+/* or 62px */
+
+text-align: right;
+color: #000000;
+}
+
+.collection-columns img{
+    max-width:400px;
+}
+
+.collection-column-item{
+    background-color: #F2F2F2;
+    /* margin: 10px; */
+    height: 500px !important;
+}
+
+.full-bleed-product-hightlight img{
+    max-width:100%;
+    text-align: center;
+}
+
